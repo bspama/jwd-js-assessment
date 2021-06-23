@@ -166,7 +166,7 @@ function myTimer() {
     clearInterval(time);
     alert("Sorry the time run out!! :(");
     window.location.reload();
-    clearTimeout(time);
+    //clearTimeout(time);
     //window.location.href=window.location.href.reload();
   }
 }
